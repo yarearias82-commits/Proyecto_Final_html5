@@ -3,180 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Valladolid, Yucatán</title>
-
-    <!-- RESPONSIVE -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- TIPOGRAFÍA -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Pacifico&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
 
 <header>
     <h1>Valladolid, Yucatán</h1>
-
-    <!-- BOTÓN HAMBURGUESA -->
-    <div class="menu-toggle" id="menu-toggle">☰</div>
-
-    <nav id="nav">
-        <a href="#inicio">Inicio</a>
-        <a href="#info">Información</a>
-        <a href="#lugares">Lugares</a>
-        <a href="#gastronomia">Gastronomía</a>
-        <a href="#galeria">Galería</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
+    <p>Pueblo Mágico lleno de historia y cultura</p>
 </header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#info">Información</a>
+    <a href="#lugares">Lugares</a>
+    <a href="#gastronomia">Gastronomía</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+</nav>
 
 <main>
 
-<div class="decoracion"></div>
-
-<section id="inicio" class="animar">
+<section id="inicio">
     <h2>Inicio</h2>
-    <p>
-    Valladolid es un hermoso Pueblo Mágico ubicado en el estado de Yucatán. 
-    Se caracteriza por sus calles coloridas, su arquitectura colonial y su gran riqueza cultural.
-    </p>
-
-    <div class="imagenes">
-        <img src="inicio.jpg">
-        <img src="inicio2.jpg">
-    </div>
+    <p>Valladolid es uno de los destinos más hermosos de Yucatán, conocido por su arquitectura colonial, cenotes y tradiciones.</p>
+    <img src="inicio.jpg">
+    <img src="inicio2.jpg">
 </section>
 
-<section id="info" class="animar">
-    <h2>Información</h2>
-    <p>
-    Valladolid se localiza al oriente de Yucatán, cerca de la zona arqueológica de Chichén Itzá.
-    Es un destino turístico importante por sus tradiciones, cenotes y cultura maya.
-    Su clima es cálido durante todo el año.
-    </p>
-
-    <div class="imagenes">
-        <img src="info1.jpg">
-        <img src="info2.jpg">
-    </div>
+<section id="info">
+    <h2>Información del lugar</h2>
+    <article>
+        <p>Este Pueblo Mágico se ubica en el oriente de Yucatán y es famoso por su cercanía con Chichén Itzá.</p>
+    </article>
+    <img src="info1.jpg">
+    <img src="info2.jpg">
 </section>
 
-<section id="lugares" class="animar">
+<section id="lugares">
     <h2>Lugares turísticos</h2>
-
-    <article class="card">
-        <h3>Cenote Zací</h3>
-        <p>Cenote natural ubicado en el centro de la ciudad, ideal para nadar.</p>
-        <div class="imagenes">
-            <img src="lugar1.jpg">
-            <img src="lugar2.jpg">
-        </div>
+    <article>
+        <p>Algunos lugares destacados son el Cenote Zací, el Convento de San Bernardino y la Calzada de los Frailes.</p>
     </article>
-
-    <article class="card">
-        <h3>Convento de San Bernardino</h3>
-        <p>Antiguo convento franciscano con gran valor histórico.</p>
-        <div class="imagenes">
-            <img src="galería1.jpg">
-            <img src="galeria2.jpg">
-        </div>
-    </article>
-
-    <article class="card">
-        <h3>Calzada de los Frailes</h3>
-        <p>Calle colorida llena de historia, tiendas y cultura.</p>
-        <div class="imagenes">
-            <img src=galeria1.jpg">
-            <img src="galeria2.jpg">
-        </div>
-    </article>
-
-    <article class="card">
-        <h3>Chichén Itzá</h3>
-        <p>Zona arqueológica cercana, una de las 7 maravillas del mundo moderno.</p>
-        <div class="imagenes">
-            <img src="img/chichen1.jpg">
-            <img src="img/chichen2.jpg">
-        </div>
-    </article>
-
+    <img src="lugar1.jpg">
+    <img src="lugar2.jpg">
 </section>
 
-<section id="gastronomia" class="animar">
+<section id="gastronomia">
     <h2>Gastronomía</h2>
-    <p>
-    La gastronomía de Valladolid incluye platillos tradicionales como la cochinita pibil,
-    lomitos de Valladolid, panuchos y salbutes.
-    </p>
-
-    <div class="imagenes">
-        <img src="comida1.jpg">
-        <img src="comida2.jpg">
-    </div>
+    <article>
+        <p>La comida típica incluye cochinita pibil, lomitos de Valladolid y panuchos.</p>
+    </article>
+    <img src="comida1.jpg">
+    <img src="comida2.jpg">
 </section>
 
-<section id="galeria" class="animar">
+<section id="galeria">
     <h2>Galería</h2>
-
-    <div class="carrusel">
-        <img src="galeria1.jpg" class="active">
-        <img src="galeria2.jpg">
-        <img src="img/galeria3.jpg">
-        <img src="img/galeria4.jpg">
-    </div>
+    <img src="galeria1.jpg">
+    <img src="galeria2.jpg">
 </section>
 
-<section id="contacto" class="animar">
+<section id="contacto">
     <h2>Contacto</h2>
-    <p>
-        Para más información:
-        @valladolidyucatan
-    </p>
+    <p>Visita Valladolid y descubre su magia.</p>
+    <button onclick="mensaje()">Haz clic</button>
 </section>
-
-<div class="decoracion"></div>
 
 </main>
 
 <footer>
-    <p>Proyecto HTML5 - Valladolid, Yucatán 2026</p>
+    <p>Proyecto HTML5 - Valladolid, Yucatán</p>
 </footer>
 
-<script>
-/* MENÚ HAMBURGUESA */
-const toggle = document.getElementById("menu-toggle");
-const nav = document.getElementById("nav");
-
-toggle.addEventListener("click", () => {
-    nav.classList.toggle("active");
-});
-
-/* CARRUSEL */
-let index = 0;
-const slides = document.querySelectorAll(".carrusel img");
-
-setInterval(() => {
-    slides[index].classList.remove("active");
-    index = (index + 1) % slides.length;
-    slides[index].classList.add("active");
-}, 3000);
-
-/* ANIMACIÓN SCROLL */
-const elementos = document.querySelectorAll(".animar");
-
-const mostrar = () => {
-    elementos.forEach(el => {
-        const top = el.getBoundingClientRect().top;
-        if (top < window.innerHeight - 100) {
-            el.classList.add("visible");
-        }
-    });
-};
-
-window.addEventListener("scroll", mostrar);
-</script>
-
+<script src="js/app.js"></script>
 </body>
 </html>
